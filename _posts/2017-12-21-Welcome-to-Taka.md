@@ -2,8 +2,8 @@
 layout: post
 title: "Welcome to Blog of Taka"
 data: 2017-12-21 16:49:50 +0900
-categories: gossip
-tag: human
+categories: Gossip
+tag: Human
 ---
 
 * content
