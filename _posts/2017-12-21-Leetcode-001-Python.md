@@ -10,6 +10,7 @@ tag: Python
 {:toc}
 
 This data structure is about dictrionary.
+
 -------------------
 The origianl question is as follow.
 
