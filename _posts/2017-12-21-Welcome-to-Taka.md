@@ -18,5 +18,5 @@ Hello. This is a space for programm share and study. A blog can help me show mys
 
 こんにちは、ここで俺の自分のブログです、一生懸命で勉強するのためです。自分のことが示すとか、自分の勉強の方が書き取るとか、自分の知識が整理するのためです。よろしくお願いします。
 
-![umaru]({{ '/assets/umaru.png' | prepend: site.baseurl }})[umaru!](#)
+![umaru]({{ '/assets/umaru.png' | prepend: site.baseurl }})
 
