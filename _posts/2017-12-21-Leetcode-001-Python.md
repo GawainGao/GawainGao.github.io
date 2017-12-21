@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Blog of Taka"
+title: "Leetcode 001"
 data: 2017-12-21 17:31:50 +0900
 categories: Leetcode
 tag: Python
@@ -41,5 +41,5 @@ This is my solution.
 		                if nums[i]+nums[j] == target:
 		                      return [i,j] 
 
-		               
+
             
