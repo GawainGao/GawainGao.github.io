@@ -1,49 +1,26 @@
-# Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+# Site settings
+name: Less Or More
+email: luoyan35714@126.com
+author: Freud Kang
+url: http://www.hifreud.com
+resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/luoyan35714/
+baseurl: "/LessOrMore"
+description: Actually, less is more!
+meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
 
-url: "http://vno.onevcat.com"
-
-permalink: /:year/:month/:title/
-
-# Format
-highlighter: rouge
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
-
-# The blog button should not be removed.
-blog_button:
-    title: Blog
-    description: Visit blog
-
-# Navigation buttons in the front page.
-nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
-
-# Pagination
-gems: [jekyll-paginate]
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 paginate: 10
-paginate_path: "page/:num/"
 
-# Comment
-comment:
-    disqus: vno-jekyll
-    # duoshuo: 
-    
-# Social
-social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-# Google Analytics
-ga:
-    # id: your_ga_id
-    # host: your_host
+github_username: luoyan35714
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+
