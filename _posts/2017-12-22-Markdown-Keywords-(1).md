@@ -20,7 +20,7 @@ Some special in this theme      {#Special}
 ------------------------------------------
 		[Github](https://github.com/)
 
-+ We can deep the 'words'
++ We can deep the `words`
 ------------------------------------------
 		'Deep in the heart'
 
