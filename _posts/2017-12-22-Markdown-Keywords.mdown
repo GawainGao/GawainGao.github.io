@@ -9,10 +9,7 @@ tag: Markdown
 * content
 {:toc}
 
-
 Automatically generate the content
-
-Jump inside the article
 
 ------------------------------------
 
