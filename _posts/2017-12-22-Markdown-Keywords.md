@@ -20,7 +20,7 @@ Some special in this theme      {#Special}
 ------------------------------------------
 		[Github](https://github.com/)
 
-+ We can deep the words
++ We can deep the 'words'
 ------------------------------------------
 		'Deep in the heart'
 
@@ -29,8 +29,13 @@ Some special in this theme      {#Special}
 		Two tab can make it.
 
 '''bash
-  '''bash
-This way also can achieve
-   '''
+This way also can achieve. Use the bash
 '''
-		
+
++ We need some method to jump [Jump](#jump)
+------------------------------------------
+<span id=jump>
+'''bash		
+#   [Jump](#jump)
+#   <span id=jump>
+'''
