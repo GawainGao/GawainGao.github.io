@@ -11,7 +11,7 @@ tag: Markdown
 
 #Automatically generate the content
 [#Jump inside the article](#2)
--------------------
+------------------------------------
 1. Automatically generate the content
 
 #H1
@@ -33,5 +33,5 @@ We can use
 
 		<span id = "jump">
 		</span>
-
+ 
             
