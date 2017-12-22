@@ -9,45 +9,28 @@ tag: Markdown
 * content
 {:toc}
 
-#Automatically generate the content
 
+Some special in this theme      {#Special}
+==========================================
++ Can make a list
+------------------------------------------
+		+ Can make a list
 
-#Jump inside the article
++ We need the [link](http://github.com/)
+------------------------------------------
+		[Github](https://github.com/)
 
++ We can deep the words
+------------------------------------------
+		'Deep in the heart'
 
-------------------------------------
++ We can make textfile
+------------------------------------------
+		Two tab can make it.
 
-
-```Automatically generate the content
-
-[to second part](#2)
-
-		#H1
-
-		###h1
-
-		####hh1
-
-		##H2
-
-		###h2
-
-		####hh2
-
-We can get the content.
-
-
-<span id = "2">
-```Jump inside the article
-
-
-
-In order to quickly get to the certain place.
-We can use 
-
-		[what u want to say](#jump)
-
-		<span id = "jump">
-		</span>
- 
-            
+'''bash
+  '''bash
+This way also can achieve
+   '''
+'''
+		
