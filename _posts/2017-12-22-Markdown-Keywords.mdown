@@ -13,9 +13,6 @@ tag: Markdown
 #Automatically generate the content
 
 
-#Jump inside the article
-
-
 
 ------------------------------------
 [to second part](#2)
