@@ -10,8 +10,11 @@ tag: Markdown
 {:toc}
 
 #Automatically generate the content
-[#Jump inside the article](#2)
+
+#Jump inside the article
+
 ------------------------------------
+[to second part](#2)
 1. Automatically generate the content
 
 #H1
