@@ -29,15 +29,22 @@ Some special in this theme      {#Special}
 		Two tab can make it.
 
 ```bash
-This way also can achieve. Use the bash
+This way also can achieve. Use the bash, and this can start from the initial of one line.
 ```
 
 + We need some method to jump [Jump](#jump)
 ------------------------------------------
+
 <span id=jump>
-
-
 ```bash		
-#[Jump](#jump)
-#<span id=jump>
+[Jump](#jump2)
+<span id=jump2>
 ```
++ We can add the image
+------------------------------------------
+<img src="{{ '/assets/umaru2.jpg' | prepend: site.baseurl }}" alt="Umaru" width="310" />
+		<img src="{{ '/route' | prepend: site.baseurl }}" alt="message" width="big?" />
+
+
+
+
