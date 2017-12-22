@@ -37,13 +37,15 @@ This way also can achieve. Use the bash, and this can start from the initial of 
 
 <span id=jump>
 ```bash		
-[Jump](#jump2)
-<span id=jump2>
+#[Jump](#jump2)
+#<span id=jump2>
 ```
 + We can add the image
 ------------------------------------------
 <img src="{{ '/assets/umaru2.jpg' | prepend: site.baseurl }}" alt="Umaru" width="310" />
-		<img src="{{ '/route' | prepend: site.baseurl }}" alt="message" width="big?" />
+```bash
+#<img src="{{ '/route' | prepend: site.baseurl }}" alt="message" width="big?" />
+```
 
 
 
