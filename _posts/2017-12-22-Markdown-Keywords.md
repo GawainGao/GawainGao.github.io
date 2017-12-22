@@ -35,7 +35,9 @@ This way also can achieve. Use the bash
 + We need some method to jump [Jump](#jump)
 ------------------------------------------
 <span id=jump>
+
+
 ```bash		
-[Jump](#jump)
-<span id=jump>
+#[Jump](#jump)
+#<span id=jump>
 ```
