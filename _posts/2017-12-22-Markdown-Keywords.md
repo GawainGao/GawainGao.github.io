@@ -11,13 +11,14 @@ tag: Markdown
 
 #Automatically generate the content
 
+
 #Jump inside the article
 
 
 ------------------------------------
 
 
-1. Automatically generate the content
+```Automatically generate the content
 
 [to second part](#2)
 
@@ -37,8 +38,8 @@ We can get the content.
 
 
 <span id = "2">
-2. Jump inside the article
-</span>
+```Jump inside the article
+
 
 
 In order to quickly get to the certain place.
