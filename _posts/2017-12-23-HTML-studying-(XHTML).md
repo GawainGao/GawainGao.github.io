@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML studying(4)"
+title: "HTML studying(XHTML)"
 data: 2017-12-23 20:46:26 +0900
 categories: HTML
 tag: XHTML
