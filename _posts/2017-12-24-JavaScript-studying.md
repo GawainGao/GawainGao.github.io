@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS studying"
+title: "JavaScript studying"
 data: 2017-12-24 17:35:50 +0900
 categories: Front
 tag: JavaScript
