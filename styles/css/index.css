@@ -6319,7 +6319,7 @@ hr {
 
 .docs-home {
   color: #b9c8e0;
-  background-image: url('/styles/images/biglogo.jpg' | prepend: site.baseurl )
+  background-image: url('../styles/images/biglogo.jpg')
 }
 /* Page headers */
 .docs-header {
