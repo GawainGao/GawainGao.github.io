@@ -1,16 +1,33 @@
 <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
   <div class="container">
+    
+
+
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+
+<!--  logo here -->    
+
       <a href="/" class="navbar-brand">
         <img src="{{ '/styles/images/logo.jpg' | prepend: site.baseurl }}">
       </a>
+ 
+    
     </div>
+
+
+
+
+
+<!--   -->    
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+<!--  From here is the navagation bar on the top and the left include some buttons -->
+
       <ul class="nav navbar-nav">    
         <li>
           <a href="{{ '/' | prepend: site.baseurl }}">Home</a>
@@ -22,6 +39,9 @@
           <a href="{{ '/tag' | prepend: site.baseurl }}">Languages</a>
         </li>
       </ul>
+
+<!--  From here is the navagation bar on the top and the right include some buttons and the dropdown button -->
+
       <ul class="nav navbar-nav navbar-right">
         <li>
             <a><span id="busuanzi_container_site_pv">Total Comer <span id="busuanzi_value_site_pv"></span></span></a>
@@ -40,6 +60,10 @@
           </ul>
         </li>
       </ul>
+
+<!--   -->
+
+
     </nav>
   </div>
 </header>
