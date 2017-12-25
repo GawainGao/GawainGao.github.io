@@ -2,7 +2,7 @@
 layout: post
 title: "Fuzzy in Image Processing"
 data: 2017-12-25 19:45:50 +0900
-categories: Image Processing
+categories: ImageProcessing
 tag: Matlab
 ---
 
@@ -13,12 +13,6 @@ tag: Matlab
 
 
 
-
-
-
-
-Fuzzy in Image processing
-==================
 
 Fuzzy set theory
 --------------------
