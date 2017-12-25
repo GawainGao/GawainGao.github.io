@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Leetcode 001"
-data: 2017-12-21 17:31:50 +0900
+date: 2017-12-21 17:31:50 +0900
 categories: Leetcode
 tag: Python
 ---

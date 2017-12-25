@@ -1,13 +1,16 @@
 ---
 layout: post
 title: "Leetcode 002"
-data: 2017-12-21 17:49:50 +0900
+date: 2017-12-21 17:49:50 +0900
 categories: Leetcode
 tag: Python
 ---
 
 * content
 {:toc}
+
+
+
 
 This data structure is about linked list.
 

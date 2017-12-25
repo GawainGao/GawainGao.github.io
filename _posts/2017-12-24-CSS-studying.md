@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CSS studying"
-data: 2017-12-24 03:53:26 +0900
+date: 2017-12-24 03:53:26 +0900
 categories: Front
 tag: CSS
 ---

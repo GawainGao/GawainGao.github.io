@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTML studying(1)"
-data: 2017-12-23 02:52:26 +0900
+date: 2017-12-23 02:52:26 +0900
 categories: Front
 tag: HTML
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTML studying(HTML5)"
-data: 2017-12-24 00:38:26 +0900
+date: 2017-12-24 00:38:26 +0900
 categories: Front
 tag: HTML5
 ---
