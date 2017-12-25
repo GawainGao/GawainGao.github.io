@@ -3461,7 +3461,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   min-height: 60px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  background-color: green;
 }
 .navbar:before,
 .navbar:after {
@@ -6317,7 +6316,7 @@ hr {
 .docs-header,
 .docs-home {
   color: #b9c8e0;
-  background-color: #1d365d;
+  background-color: #00cc00;
 }
 /* Page headers */
 .docs-header {
