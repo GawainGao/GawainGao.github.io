@@ -9,8 +9,11 @@ tag: Python
 * content
 {:toc}
 
-This data structure is about linked list.
 
+
+
+
+Question
 -------------------
 The origianl question is as follow.
 
