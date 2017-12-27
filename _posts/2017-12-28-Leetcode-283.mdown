@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Leetcode 283"
+date: 2017-12-28 02:06:50 +0900
+categories: Leetcode
+tag: Python
+---
+
+* content
+{:toc}
+
+
+
+
+Move Zeroes
+-------------------
+Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
+
+**Note:**
+1. You must do this in-place without making a copy of the array.
+2. Minimize the total number of operations.
+**Credits:**
+Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.
+
+**Example**
+
+		Given nums = [2, 7, 11, 15], target = 9,
+
+		Because nums[0] + nums[1] = 2 + 7 = 9,
+		return [0, 1].
+
+This can be solved by checking all the situation and the time consuming is N square.
+
+
+
+
+Method
+--------
+Use two nodes, one meet 0 then move another, until not a 0, change their position.
+
+
+
+
+
+Python
+-----------
+
+```
+class Solution(object):
+    def moveZeroes(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: void Do not return anything, modify nums in-place instead.
+        """
+        if len(nums) == 0: pass
+        elif len(nums) == 1: pass
+        else:
+            p1,p2 = 0,0
+            while p1 < len(nums) - 1:
+                if nums[p1] != 0: p1 += 1
+                else:
+                    p2 = p1 + 1
+                    while True:
+                        if p2 == len(nums): 
+                            p1 = len(nums)
+                            break
+                        elif nums[p2] == 0:
+                            p2 = p2 + 1
+                        else:
+                            nums[p1] = nums[p2]
+                            nums[p2] = 0
+                            p1 += 1
+                            break
+```
+
+
+            
