@@ -9,8 +9,10 @@ tag: Python
 * content
 {:toc}
 
-This data structure is about dictrionary.
 
+
+
+Two Sums
 -------------------
 The origianl question is as follow.
 
@@ -27,7 +29,9 @@ You may assume that each input would have exactly one solution, and you may not 
 
 This can be solved by checking all the situation and the time consuming is N square.
 
-This is my solution.
+
+This is my solution
+-----------
 
 		class Solution(object):
  		   def twoSum(self, nums, target):
