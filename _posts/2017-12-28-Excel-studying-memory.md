@@ -2,8 +2,8 @@
 layout: post
 title: "Excel 学习笔记 | Excel studying memory"
 date: 2017-12-28 20:39:50 +0900
-categories: Gossip
-tag: Human
+categories: Excel
+tag: Excel
 ---
 
 * content
