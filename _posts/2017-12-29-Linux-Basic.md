@@ -79,11 +79,11 @@ nano
 
 Status
 ------
-* who | 用户
-* netstat -a | 网络连接状态
-* ps -aux | 背景执行程序
-* sync | 资料写入
-* shutdown | 关机
+* who 用户
+* netstat -a 网络连接状态
+* ps -aux 背景执行程序
+* sync 资料写入
+* shutdown 关机
 * reboot
 * halt
 * poweroff
