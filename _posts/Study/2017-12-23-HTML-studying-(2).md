@@ -2,7 +2,7 @@
 layout: post
 title: "HTML studying(2)"
 date: 2017-12-23 16:44:26 +0900
-categories: Front
+categories: Study
 tag: HTML
 ---
 

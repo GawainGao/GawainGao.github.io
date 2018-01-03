@@ -2,8 +2,8 @@
 layout: post
 title: "HTML studying(XHTML)"
 date: 2017-12-23 20:46:26 +0900
-categories: Front
-tag: XHTML
+categories: Study
+tag: HTML
 ---
 
 * content

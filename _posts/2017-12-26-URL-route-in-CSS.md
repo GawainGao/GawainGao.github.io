@@ -2,7 +2,7 @@
 layout: post
 title: "URL route in CSS"
 date: 2017-12-26 01:37:50 +0900
-categories: Front
+categories: Study
 tag: CSS
 ---
 

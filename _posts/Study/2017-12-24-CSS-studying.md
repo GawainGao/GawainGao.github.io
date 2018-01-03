@@ -2,7 +2,7 @@
 layout: post
 title: "CSS studying"
 date: 2017-12-24 03:53:26 +0900
-categories: Front
+categories: Study
 tag: CSS
 ---
 

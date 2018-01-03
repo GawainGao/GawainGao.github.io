@@ -2,7 +2,7 @@
 layout: post
 title: "Java 学习笔记 | Java Basic"
 date: 2018-01-02 18:18:52 +0900
-categories: Java
+categories: Study
 tag: Java
 ---
 

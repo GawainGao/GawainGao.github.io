@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to Blog of Taka"
 date: 2017-12-21 16:49:50 +0900
-categories: Gossip
+categories: Study
 tag: Human
 ---
 

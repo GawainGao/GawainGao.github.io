@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown Keywords(1)"
 date: 2017-12-22 15:17:50 +0900
-categories: Markdown
+categories: Study
 tag: Markdown
 ---
 

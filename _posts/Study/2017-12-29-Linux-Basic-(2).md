@@ -2,7 +2,7 @@
 layout: post
 title: "Linux 学习笔记(2) | Linux Basic(2)"
 date: 2017-12-29 16:04:20 +0900
-categories: Linux
+categories: Study
 tag: Linux
 ---
 
