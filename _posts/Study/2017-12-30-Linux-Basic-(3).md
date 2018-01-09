@@ -31,4 +31,21 @@ tag: Linux
 * cp -i [目录1] [目录2]
 * cp -a
 * cp -l
-*  
+* rm
+* mv
+* basename
+* dirname
+
+
+文档操作
+-----
+* head
+* tail
+* nl
+* cat
+* umask 用来设定权限。不同的用户有不同的预设的umask，可以在 bashrc 里面进行修改
+* chattr 设定属性
+* lsattr 查阅隐藏属性
+* file
+* which
+* whereis 可以进行小范围搜寻
