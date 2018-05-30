@@ -1,11 +1,18 @@
+---
+layout: post
+title: "Leetcode 459"
+date: 2018-05-30 17:18:52 +0900
+categories: Leetcode
+tag: Java
+---
+
+* content
+{:toc}
 
 
 
-
-
-
-
-
+Java Solution
+-------
 ```
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
