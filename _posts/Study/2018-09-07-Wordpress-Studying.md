@@ -10,7 +10,7 @@ tag: Network
 {:toc}
 
 
- 使用 Wordpress 建站
+使用 Wordpress 建站
 ----------
 在gitHub 的网站中写关于 wordpress 建站有一种奇怪的感觉。为了获得一个有独立域名的网站以及进一步学习 docker，我来学习一手服务器加域名加 wordpress 的建站方式。
 
@@ -33,9 +33,40 @@ AWS 服务器主要支持 SSH 登陆，为了安全我没有开放用户名和�
 Wordpress 的使用
 -----------
 wordpress 使用起来非常简单。
-`post` 主要用来管理发布的文章。这些文章可以有分类的 category
-`pages` 主要用来管理界面，和 post 的使用方法比较类似。
-`Appearance` 中的 themes 可以用来更换主题，widgets 可以用来安装一些边栏小插件。Menus 是导航很重要。
+* `post` 主要用来管理发布的文章。这些文章可以有分类的 category
+* `pages` 主要用来管理界面，和 post 的使用方法比较类似。
+* `Appearance` 中的 themes 可以用来更换主题，widgets 可以用来安装一些边栏小插件。Menus 是导航很重要。
+
+
+使用 scp 传文件
+----------
+这里有一个小技巧，可以使用
+`scp -i key.pem usr-name@ip:/address /Users/..` 来进行文件的传输
+
+
+插件安装不了的问题
+-----------
+因为 ftp 的访问权限原因以及文件夹的创建权限原因，当遇到不能安装插件的时候可以使用以下两个操作同时进行。
+首先在 wp-conten 目录下创建于一个空的文件夹
+`mkdir tmp`
+`sudo chmod -R 777 tmp`
+然后将权限修改为777.
+第二步的操作，将 wp-config.php 文件用 scp 命令配上 ssh 传送到本地，在其中加入
+```
+define('WP_TEMP_DIR', ABSPATH.'wp-content/tmp');/* WordPress的临时目录。*/
+
+define("FS_METHOD", "direct");  
+
+define("FS_CHMOD_DIR", 0777);  
+
+define("FS_CHMOD_FILE", 0777);  
+
+```
+四行代码进行定义，表明将下载下来的文件放入临时文件夹 tmp，然后对这个文件夹进行读取。
+这样就可以正常安装插件了。
+
+
+
 
 
 
