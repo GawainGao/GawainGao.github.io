@@ -82,4 +82,9 @@ sudo service apache2 restart
 就可以解决这个问题
 
 
+推荐两个比较好用的模板
+--------
+用来做个人主页的StanleyWP和用来做电子商务的Woocommerce
+
+
 
