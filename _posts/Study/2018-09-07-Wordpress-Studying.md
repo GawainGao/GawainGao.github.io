@@ -66,9 +66,20 @@ define("FS_CHMOD_FILE", 0777);
 这样就可以正常安装插件了。
 
 
+上传大小限制的问题
+-----------
+在我们上传一些 theme 活着文件的时候，遇到了2MB 以上的文件无法上传的问题，这是由于 ftp 的设置所导致的。我们可以使用 php.ini文件的修改来解决。
 
+首先我们来到服务器的根目录，使用以下的方式
+```
+cd /etc/php/7.0/apache2
+nano php.ini
+upload_max_filesize = 16M
+Ctrl+X
+sudo service apache2 restart
+```
 
-
+就可以解决这个问题
 
 
 
