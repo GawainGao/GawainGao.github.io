@@ -29,7 +29,7 @@ conda install -c plotly plotly
 ```
 
 安装完毕后可以使用 `import plotly.plotly as pl`命令进行试验，如果成功我们就可以开始使用了。
-因为是做数据的处理，我们可以使用 Anaconda2中的notebook，这样我们每一步对矩阵的操作可以马上呈现出来。
+因为是做数据的处理，我们可以使用 Anaconda2中的notebook，这样我们每一步对矩阵的操作can马上呈现出来。
 
 
 Pandas 库对于数据的整理

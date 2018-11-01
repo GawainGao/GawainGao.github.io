@@ -7,8 +7,7 @@ tag: C++
 ---
 
 * content
-{:toc}
-
+{:toc} 
 
 
 C++ and OpenCV settings
@@ -35,7 +34,40 @@ This `.clone()` method is needed otherwise the estination Mat are all the pointe
 
 C++ file io
 ----------------------
+`struct dirent *ptr` new a instance of struct
+`DIR *dir`
+`dir = opendir(PATH.c_str())` open the folder from its name
+`vector<string>files` is used to set a new list to save files name
+```
+while((ptr=readdir(dir))!=NULL)
+{
+	if(ptr->d_name[0]=='.')
+		countinuel
+	file.push_back(ptr->d_name);
+}
+```
+These code is used for check the ptr pointer is still point to a file name. And remove the file name with the start of . or ..
+The `.push_back` method is used to add new members to the vector.
+`closedir(dir)` is used to close the io.
 
+There is another way which can directly read a series of files.
+Use the add of the string in C++.
+`fileName = foalderName + "/" + to_string(number) + ".xxx"` can easily read all the files inside one foalder is the file name are in arranged.
+
+Like the d_name, the dirent type of data also have other method such as `d_ino` and `d_type` and so on.
+
+These method all include in the `dirent.h` head file.
+
+There is also the situation we want to get the certain .exd files. The method is use the `#include <regex>`. This head file include the method to do the string match.
+`regex reg_obj(exd, regex::icase);` and then `if(regex_match(ptr->d_name, reg_obj))` to find weather the exd match to the d_name in the file name.
+
+
+C++ vector container
+-----------
+`vector<string> stringList` can initialize a new vector for string.
+Use the `for` to get access into the vectore like a dictironary.
+Use the `push_back` to add new item into the vector.
+There are also a lot of other method for the vector type.
 
 
 
